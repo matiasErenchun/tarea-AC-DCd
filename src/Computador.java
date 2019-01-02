@@ -1,21 +1,26 @@
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Computador
 {
     private ArrayList<String> rom;
     private String[] ram;
-    int A;
-    int D;
-    int PC;
+    private int A;
+    private int D;
+    private int PC;
     private File file;
     private BufferedReader bf;
+    private ContenedorAux elPc;
+    private Pantalla pantalla;
 
-    public Computador(String file) throws IOException {
+    public Computador(String file, ContenedorAux elPc) throws IOException {
+        this.pantalla = null;
+        this.elPc =elPc;
         this.file= new File(file);
         this.bf=new BufferedReader(new FileReader(file));
         this.rom = new ArrayList<>();
-        this.ram = new String[10];
+        this.ram = new String[100];
         this.A = 0;
         this.D = 0;
         this.PC = 0;
@@ -36,7 +41,7 @@ public class Computador
     public void cargarRam()
     {
         int i=0;
-        while(i<10)
+        while(i<this.ram.length)
         {
             this.ram[i]="0";
             i++;
@@ -66,7 +71,6 @@ public class Computador
         {
 
             this.ejecutarInstruccion();
-            this.printRam();
         }
     }
     public void ejecutarInstruccion()
@@ -86,8 +90,11 @@ public class Computador
         {
             this.A=this.binariToDouble(instruccion);
             this.PC++;
-            System.out.println("valor de A:"+A);
         }
+        this.elPc.refresh(this.A,this.D,this.PC);
+        System.out.println("valor de A:"+A);
+        System.out.println("valor de D:"+D);
+        System.out.println("valor de M["+this.A+"] = "+this.ram[A]);
 
     }
 
@@ -333,6 +340,7 @@ public class Computador
         if(ADM.charAt(2)=='1')//guardar en Ram[A]
         {
             this.ram[this.A]=answer;
+            this.elPc.setRamIndex(this.A,answer);
         }
 }
 
@@ -397,5 +405,78 @@ public class Computador
     {
        return this.ram[index];
     }
+
+    public ContenedorLinea [] getRom()
+    {
+        ContenedorLinea [] stringRom = new ContenedorLinea[this.rom.size()];
+        Integer i=0;
+        for (String instruccion:this.rom)
+        {
+            ContenedorLinea contenedor = new ContenedorLinea(i,instruccion);
+            stringRom[i]=contenedor;
+            i++;
+
+        }
+        return stringRom;
+    }
+
+    public ContenedorLinea [] getRam()
+    {
+        ContenedorLinea [] stringRam = new ContenedorLinea[this.ram.length];
+        Integer i=0;
+        for (String instruccion:this.ram)
+        {
+            ContenedorLinea contenedor = new ContenedorLinea(i,instruccion);
+            stringRam[i]=contenedor;
+            i++;
+
+        }
+        return stringRam;
+    }
+
+    public String getA()
+    {
+        Integer intA=this.A;
+        return intA.toString();
+    }
+
+    public String getD()
+    {
+        Integer intD=this.D;
+        return intD.toString();
+    }
+
+    public String getStringPC()
+    {
+        Integer intPC=this.PC;
+        return intPC.toString();
+    }
+
+    public int getPC()
+    {
+        return this.PC;
+    }
+
+    public int getRomSize()
+    {
+        return this.rom.size();
+    }
+
+    public void esperar(int tiempo)
+    {
+        try{
+
+            Thread.sleep(tiempo *100);
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
+
+    public void setPantalla(Pantalla pantalla)
+    {
+        this.pantalla = pantalla;
+    }
+
 
 }
