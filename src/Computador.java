@@ -21,7 +21,6 @@ public class Computador
         this.PC = 0;
         this.cargarRom();
         this.cargarRam();
-        this.ejecutarPrograma();
     }
 
     public void cargarRom() throws IOException {
