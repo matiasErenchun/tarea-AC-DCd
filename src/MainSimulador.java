@@ -10,7 +10,7 @@ public class MainSimulador extends Application
     private static String file;
     public static void main(String[] args) throws IOException {
         file=args[0];
-        //file ="D:/repo git local 2/tarea-AC-DCd/instrucciones.txt";
+        //file ="/home/onibushi/Escritorio/Repo Local/tarea-AC-DCd/instrucciones.txt";
         datosMiPC = new ContenedorAux();
         miPc=new Computador(file,datosMiPC);
         Application.launch();

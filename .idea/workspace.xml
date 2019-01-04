@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc3c58f-0407-4539-acb4-5bfd6e161d2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tarea-AC-DCd/META-INF/tarea-AC-DCd.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tarea-AC-DCd/MainSimulador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tarea-AC-DCd/MainSimulador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainSimulador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainSimulador.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Computador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="2385">
               <caret line="489" column="18" selection-start-line="485" selection-start-column="4" selection-end-line="491" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,18 +30,7 @@
                 <element signature="method#binariToDouble#0;class#Computador#0" />
                 <element signature="method#instruccionesTipoC#0;class#Computador#0" />
                 <element signature="method#saltos#0;class#Computador#0" />
-                <element signature="e#10936#10937#0" expanded="true" />
-                <element signature="e#10973#10974#0" expanded="true" />
                 <element signature="method#getRom#0;class#Computador#0" />
-                <element signature="method#getRom#1;class#Computador#0" />
-                <element signature="e#12100#12101#0" expanded="true" />
-                <element signature="e#12121#12122#0" expanded="true" />
-                <element signature="e#12189#12190#0" expanded="true" />
-                <element signature="e#12215#12216#0" expanded="true" />
-                <element signature="e#12812#12813#0" expanded="true" />
-                <element signature="e#12852#12853#0" expanded="true" />
-                <element signature="e#12851#12852#0" expanded="true" />
-                <element signature="e#12875#12876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainSimulador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,22 +51,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContenedorAux.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="1260">
               <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
                 <element signature="method#cargarRam#0;class#ContenedorAux#0" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,12 +63,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pantalla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
+            <state relative-caret-position="1815">
               <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#cargarTablaRom#0;class#Pantalla#0" />
-                <element signature="method#cargarTablaRom#1;class#Pantalla#0" />
                 <element signature="method#refrechTable#0;class#Pantalla#0" />
                 <element signature="method#refresh#0;class#Pantalla#0" />
               </folding>
@@ -97,29 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Concurrencia/FilosofosMonitor/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1409">
-              <folding>
-                <element signature="e#0#5917#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContenedorLinea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="240">
               <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -179,13 +140,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546472773548" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Concurrencia/FilosofosMonitor/src/Main.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,17 +198,17 @@
       <workItem from="1546283675672" duration="11502000" />
       <workItem from="1546366473698" duration="16410000" />
       <workItem from="1546448586890" duration="23666000" />
+      <workItem from="1546629127982" duration="317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51578000" />
+    <option name="totallyTimeSpent" value="51895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14599092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14848486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +217,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32781458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,33 +245,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ComputadorSimulado.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../Concurrencia/FilosofosMonitor/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1409">
-          <folding>
-            <element signature="e#0#5917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContenedorLinea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Concurrencia/FilosofosMonitor/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Computador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="2385">
           <caret line="489" column="18" selection-start-line="485" selection-start-column="4" selection-end-line="491" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -321,62 +259,45 @@
             <element signature="method#binariToDouble#0;class#Computador#0" />
             <element signature="method#instruccionesTipoC#0;class#Computador#0" />
             <element signature="method#saltos#0;class#Computador#0" />
-            <element signature="e#10936#10937#0" expanded="true" />
-            <element signature="e#10973#10974#0" expanded="true" />
             <element signature="method#getRom#0;class#Computador#0" />
-            <element signature="method#getRom#1;class#Computador#0" />
-            <element signature="e#12100#12101#0" expanded="true" />
-            <element signature="e#12121#12122#0" expanded="true" />
-            <element signature="e#12189#12190#0" expanded="true" />
-            <element signature="e#12215#12216#0" expanded="true" />
-            <element signature="e#12812#12813#0" expanded="true" />
-            <element signature="e#12852#12853#0" expanded="true" />
-            <element signature="e#12851#12852#0" expanded="true" />
-            <element signature="e#12875#12876#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContenedorAux.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="1260">
           <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
           <folding>
             <element signature="method#cargarRam#0;class#ContenedorAux#0" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pantalla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
+        <state relative-caret-position="1815">
           <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#cargarTablaRom#0;class#Pantalla#0" />
-            <element signature="method#cargarTablaRom#1;class#Pantalla#0" />
             <element signature="method#refrechTable#0;class#Pantalla#0" />
             <element signature="method#refresh#0;class#Pantalla#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContenedorLinea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainSimulador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
